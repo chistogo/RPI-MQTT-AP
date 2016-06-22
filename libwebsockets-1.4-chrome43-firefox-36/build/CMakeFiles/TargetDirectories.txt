@@ -1,9 +1,0 @@
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/dist.dir
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/test-client.dir
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/test-echo.dir
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/test-fraggle.dir
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/test-ping.dir
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/test-server.dir
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/test-server-extpoll.dir
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/websockets.dir
-/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/websockets_shared.dir
