@@ -37,6 +37,7 @@ sudo mkdir /etc/mosquitto
 sudo cp mosquitto.conf /etc/mosquitto
 
 cat >> /etc/mosquitto/mosquitto.conf <<EOF
+listener 1883
 listener 9001
 protocol websockets
 EOF
