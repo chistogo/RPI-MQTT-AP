@@ -33,7 +33,7 @@ sudo reboot
 sudo apt-get install git -y
 
 #Clone this script to get access point working. Edit the file BEFORE you run it to change SSID and Password
-git clone set-up-ap.sh # CHRIS CHANGE THIS
+git clone https://github.com/chistogo/RPI-MQQT-AP.git
 
 
 
