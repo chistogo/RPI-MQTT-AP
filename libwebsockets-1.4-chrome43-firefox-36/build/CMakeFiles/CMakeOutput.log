@@ -1,0 +1,666 @@
+The system is: Linux - 4.4.13-v7+ - armv7l
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1651936000/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1651936000.dir/build.make CMakeFiles/cmTryCompileExec1651936000.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1651936000.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1651936000.dir/testCCompiler.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1651936000
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1651936000.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1651936000.dir/testCCompiler.c.o  -o cmTryCompileExec1651936000 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec618990256/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec618990256.dir/build.make CMakeFiles/cmTryCompileExec618990256.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec618990256
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec618990256.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec618990256 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper
+Target: arm-linux-gnueabihf
+Configured with: ../src/configure -v --with-pkgversion='Raspbian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf
+Thread model: posix
+gcc version 4.9.2 (Raspbian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/
+LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec618990256' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJV5lCh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTryCompileExec618990256 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec618990256/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec618990256.dir/build.make CMakeFiles/cmTryCompileExec618990256.dir/build]
+  ignore line: [make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec618990256]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec618990256.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec618990256 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper]
+  ignore line: [Target: arm-linux-gnueabihf]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Raspbian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-libitm --disable-libquadmath --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-armhf --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-armhf --with-arch-directory=arm --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-sjlj-exceptions --with-arch=armv6 --with-fpu=vfp --with-float=hard --enable-checking=release --build=arm-linux-gnueabihf --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Raspbian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/arm-linux-gnueabihf/4.9/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/:/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../:/lib/arm-linux-gnueabihf/:/lib/:/usr/lib/arm-linux-gnueabihf/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec618990256' '-rdynamic' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2 -plugin /usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJV5lCh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X --hash-style=gnu -m armelf_linux_eabi -o cmTryCompileExec618990256 /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o -L/usr/lib/gcc/arm-linux-gnueabihf/4.9 -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf -L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../.. -L/lib/arm-linux-gnueabihf -L/usr/lib/arm-linux-gnueabihf CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o /usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o]
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/arm-linux-gnueabihf/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJV5lCh.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-armhf.so.3] ==> ignore
+    arg [-X] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec618990256] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crti.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf]
+    arg [-L/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..]
+    arg [-L/lib/arm-linux-gnueabihf] ==> dir [/lib/arm-linux-gnueabihf]
+    arg [-L/usr/lib/arm-linux-gnueabihf] ==> dir [/usr/lib/arm-linux-gnueabihf]
+    arg [CMakeFiles/cmTryCompileExec618990256.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9] ==> [/usr/lib/gcc/arm-linux-gnueabihf/4.9]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../../arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/gcc/arm-linux-gnueabihf/4.9/../../..] ==> [/usr/lib]
+  collapse library dir [/lib/arm-linux-gnueabihf] ==> [/lib/arm-linux-gnueabihf]
+  collapse library dir [/usr/lib/arm-linux-gnueabihf] ==> [/usr/lib/arm-linux-gnueabihf]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/arm-linux-gnueabihf/4.9;/usr/lib/arm-linux-gnueabihf;/usr/lib;/lib/arm-linux-gnueabihf]
+  implicit fwks: []
+
+
+Performing C SOURCE FILE Test HAVE_inline succeded with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1323478123/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1323478123.dir/build.make CMakeFiles/cmTryCompileExec1323478123.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1323478123.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=inline -DHAVE_inline   -o CMakeFiles/cmTryCompileExec1323478123.dir/src.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1323478123
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1323478123.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_inline    CMakeFiles/cmTryCompileExec1323478123.dir/src.c.o  -o cmTryCompileExec1323478123 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test HAVE___inline__ succeded with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3594294078/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3594294078.dir/build.make CMakeFiles/cmTryCompileExec3594294078.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3594294078.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline__ -DHAVE___inline__   -o CMakeFiles/cmTryCompileExec3594294078.dir/src.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3594294078
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3594294078.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE___inline__    CMakeFiles/cmTryCompileExec3594294078.dir/src.c.o  -o cmTryCompileExec3594294078 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Performing C SOURCE FILE Test HAVE___inline succeded with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1557891771/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1557891771.dir/build.make CMakeFiles/cmTryCompileExec1557891771.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1557891771.dir/src.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DHAVE___inline   -o CMakeFiles/cmTryCompileExec1557891771.dir/src.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1557891771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1557891771.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE___inline    CMakeFiles/cmTryCompileExec1557891771.dir/src.c.o  -o cmTryCompileExec1557891771 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+		#include <stdio.h>
+		KEYWORD void a() {}
+		int main(int argc, char **argv) { a(); return 0; }
+		
+Determining if the function bzero exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec683267186/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec683267186.dir/build.make CMakeFiles/cmTryCompileExec683267186.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec683267186.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=bzero   -o CMakeFiles/cmTryCompileExec683267186.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘bzero’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec683267186
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec683267186.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=bzero    CMakeFiles/cmTryCompileExec683267186.dir/CheckFunctionExists.c.o  -o cmTryCompileExec683267186 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fork exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2852213746/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2852213746.dir/build.make CMakeFiles/cmTryCompileExec2852213746.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2852213746.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=fork   -o CMakeFiles/cmTryCompileExec2852213746.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘fork’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2852213746
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2852213746.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=fork    CMakeFiles/cmTryCompileExec2852213746.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2852213746 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec796842849/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec796842849.dir/build.make CMakeFiles/cmTryCompileExec796842849.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec796842849.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=getenv   -o CMakeFiles/cmTryCompileExec796842849.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec796842849
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec796842849.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getenv    CMakeFiles/cmTryCompileExec796842849.dir/CheckFunctionExists.c.o  -o cmTryCompileExec796842849 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec319113222/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec319113222.dir/build.make CMakeFiles/cmTryCompileExec319113222.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec319113222.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTryCompileExec319113222.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec319113222
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec319113222.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTryCompileExec319113222.dir/CheckFunctionExists.c.o  -o cmTryCompileExec319113222 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2814326282/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2814326282.dir/build.make CMakeFiles/cmTryCompileExec2814326282.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2814326282.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTryCompileExec2814326282.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec2814326282
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2814326282.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTryCompileExec2814326282.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2814326282 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec653445496/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec653445496.dir/build.make CMakeFiles/cmTryCompileExec653445496.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec653445496.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=realloc   -o CMakeFiles/cmTryCompileExec653445496.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘realloc’
+/usr/share/cmake-3.0/Modules/CheckFunctionExists.c:3:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTryCompileExec653445496
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec653445496.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=realloc    CMakeFiles/cmTryCompileExec653445496.dir/CheckFunctionExists.c.o  -o cmTryCompileExec653445496 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1408932757/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1408932757.dir/build.make CMakeFiles/cmTryCompileExec1408932757.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1408932757.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=socket   -o CMakeFiles/cmTryCompileExec1408932757.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1408932757
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1408932757.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=socket    CMakeFiles/cmTryCompileExec1408932757.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1408932757 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4020652368/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4020652368.dir/build.make CMakeFiles/cmTryCompileExec4020652368.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4020652368.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=strerror   -o CMakeFiles/cmTryCompileExec4020652368.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4020652368
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4020652368.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=strerror    CMakeFiles/cmTryCompileExec4020652368.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4020652368 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vfork exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3940276784/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3940276784.dir/build.make CMakeFiles/cmTryCompileExec3940276784.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3940276784.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=vfork   -o CMakeFiles/cmTryCompileExec3940276784.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3940276784
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3940276784.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=vfork    CMakeFiles/cmTryCompileExec3940276784.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3940276784 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getifaddrs exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec943477965/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec943477965.dir/build.make CMakeFiles/cmTryCompileExec943477965.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec943477965.dir/CheckFunctionExists.c.o
+/usr/bin/cc  -DKEYWORD=__inline -DCHECK_FUNCTION_EXISTS=getifaddrs   -o CMakeFiles/cmTryCompileExec943477965.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.0/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec943477965
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec943477965.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=getifaddrs    CMakeFiles/cmTryCompileExec943477965.dir/CheckFunctionExists.c.o  -o cmTryCompileExec943477965 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1619380059/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1619380059.dir/build.make CMakeFiles/cmTryCompileExec1619380059.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1619380059.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1619380059.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1619380059
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1619380059.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1619380059.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1619380059 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3871946596/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3871946596.dir/build.make CMakeFiles/cmTryCompileExec3871946596.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3871946596.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3871946596.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3871946596
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3871946596.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3871946596.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3871946596 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec312407129/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec312407129.dir/build.make CMakeFiles/cmTryCompileExec312407129.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec312407129.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec312407129.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec312407129
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec312407129.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec312407129.dir/CheckIncludeFile.c.o  -o cmTryCompileExec312407129 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec807695112/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec807695112.dir/build.make CMakeFiles/cmTryCompileExec807695112.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec807695112.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec807695112.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec807695112
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec807695112.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec807695112.dir/CheckIncludeFile.c.o  -o cmTryCompileExec807695112 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1070710976/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1070710976.dir/build.make CMakeFiles/cmTryCompileExec1070710976.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1070710976.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1070710976.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1070710976
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1070710976.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1070710976.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1070710976 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3420766843/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3420766843.dir/build.make CMakeFiles/cmTryCompileExec3420766843.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3420766843.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3420766843.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3420766843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3420766843.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3420766843.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3420766843 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1784380835/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1784380835.dir/build.make CMakeFiles/cmTryCompileExec1784380835.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1784380835.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1784380835.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1784380835
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1784380835.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1784380835.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1784380835 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1302201296/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1302201296.dir/build.make CMakeFiles/cmTryCompileExec1302201296.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1302201296.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1302201296.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1302201296
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1302201296.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1302201296.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1302201296 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2062772954/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2062772954.dir/build.make CMakeFiles/cmTryCompileExec2062772954.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2062772954.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2062772954.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2062772954
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2062772954.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2062772954.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2062772954 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/prctl.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2977186327/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2977186327.dir/build.make CMakeFiles/cmTryCompileExec2977186327.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2977186327.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2977186327.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2977186327
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2977186327.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2977186327.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2977186327 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec194388276/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec194388276.dir/build.make CMakeFiles/cmTryCompileExec194388276.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec194388276.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec194388276.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec194388276
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec194388276.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec194388276.dir/CheckIncludeFile.c.o  -o cmTryCompileExec194388276 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec765866045/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec765866045.dir/build.make CMakeFiles/cmTryCompileExec765866045.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec765866045.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec765866045.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec765866045
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec765866045.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec765866045.dir/CheckIncludeFile.c.o  -o cmTryCompileExec765866045 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3226588077/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3226588077.dir/build.make CMakeFiles/cmTryCompileExec3226588077.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3226588077.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3226588077.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3226588077
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3226588077.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3226588077.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3226588077 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3503847944/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3503847944.dir/build.make CMakeFiles/cmTryCompileExec3503847944.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3503847944.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3503847944.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3503847944
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3503847944.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3503847944.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3503847944 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file zlib.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec715882542/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec715882542.dir/build.make CMakeFiles/cmTryCompileExec715882542.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec715882542.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec715882542.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec715882542
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec715882542.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec715882542.dir/CheckIncludeFile.c.o  -o cmTryCompileExec715882542 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1373340201/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1373340201.dir/build.make CMakeFiles/cmTryCompileExec1373340201.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1373340201.dir/CheckIncludeFiles.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec1373340201.dir/CheckIncludeFiles.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1373340201
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1373340201.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec1373340201.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1373340201 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3677111621/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3677111621.dir/build.make CMakeFiles/cmTryCompileExec3677111621.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3677111621.dir/CheckIncludeFile.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec3677111621.dir/CheckIncludeFile.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3677111621
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3677111621.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec3677111621.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3677111621 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of pid_t passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2203700035/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2203700035.dir/build.make CMakeFiles/cmTryCompileExec2203700035.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2203700035.dir/PID_T_SIZE.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec2203700035.dir/PID_T_SIZE.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CheckTypeSize/PID_T_SIZE.c
+Linking C executable cmTryCompileExec2203700035
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2203700035.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec2203700035.dir/PID_T_SIZE.c.o  -o cmTryCompileExec2203700035 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec185857763/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec185857763.dir/build.make CMakeFiles/cmTryCompileExec185857763.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec185857763.dir/SIZE_T_SIZE.c.o
+/usr/bin/cc  -DKEYWORD=__inline  -o CMakeFiles/cmTryCompileExec185857763.dir/SIZE_T_SIZE.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CheckTypeSize/SIZE_T_SIZE.c
+Linking C executable cmTryCompileExec185857763
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec185857763.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec185857763.dir/SIZE_T_SIZE.c.o  -o cmTryCompileExec185857763 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_VISIBILITY succeded with the following output:
+Change Dir: /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec44481629/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec44481629.dir/build.make CMakeFiles/cmTryCompileExec44481629.dir/build
+make[1]: Entering directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec44481629.dir/src.c.o
+/usr/bin/cc   -DHAVE_VISIBILITY   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec44481629.dir/src.c.o   -c /home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec44481629
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec44481629.dir/link.txt --verbose=1
+/usr/bin/cc   -DHAVE_VISIBILITY    CMakeFiles/cmTryCompileExec44481629.dir/src.c.o  -o cmTryCompileExec44481629 -rdynamic 
+make[1]: Leaving directory '/home/pi/RPI-MQQT-AP/libwebsockets-1.4-chrome43-firefox-36/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
