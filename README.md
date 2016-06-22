@@ -49,6 +49,6 @@ sudo apt-get install git -y
 ###Clone scripts and files in this repo. Edit the scripts BEFORE you run it to change SSID and Password and other configuration stuff.
 ```bash
 git clone https://github.com/chistogo/RPI-MQQT-AP.git
-#You might have to change the the files to make the executable. Just use chmod +x FILE_NAME_HERE.sh
+#You might have to change the the files to make them executable. Just use chmod +x FILE_NAME_HERE.sh
 #Also run the scripts with sudo
 ```
