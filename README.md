@@ -5,6 +5,7 @@ If you are lazy like I am, this is a guide and some of the software to turn your
 
 ###Download latest version of raspian-lite and burn it to SD Card (win32diskimager)
 Link to Raspbian: https://www.raspberrypi.org/downloads/raspbian/
+
 Link to win32imager: https://sourceforge.net/projects/win32diskimager/
 
 
