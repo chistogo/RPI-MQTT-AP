@@ -15,7 +15,7 @@ Link to win32imager: https://sourceforge.net/projects/win32diskimager/
 sudo raspi-config 
 sudo reboot
 ```
-###Remeber to change password Raspberry Pi. This is import! Makes it so that people don't hack into it
+###Remeber to change the password one theRaspberry Pi. This is import! Makes it so that people don't hack into it
 ###The following command changes the password
 ```bash
 passwd pi
@@ -46,7 +46,9 @@ sudo reboot
 sudo apt-get install git -y
 ```
 
-###Clone this scripts to get the software install and working. Edit the scripts BEFORE you run it to change SSID and Password and other configuration stuff.
+###Clone scripts and files in this repo. Edit the scripts BEFORE you run it to change SSID and Password and other configuration stuff.
 ```bash
 git clone https://github.com/chistogo/RPI-MQQT-AP.git
+#You might have to change the the files to make the executable. Just use chmod +x FILE_NAME_HERE.sh
+#Also run the scripts with sudo
 ```
