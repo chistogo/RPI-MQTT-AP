@@ -15,7 +15,7 @@ Link to win32imager: https://sourceforge.net/projects/win32diskimager/
 sudo raspi-config 
 sudo reboot
 ```
-###Remeber to change the password on the Raspberry Pi. This is import! Makes it so that people don't hack into it
+###Remeber to change the password on the Raspberry Pi. This is important! Makes it so that people don't hack into it
 ###The following command changes the password
 ```bash
 passwd pi
