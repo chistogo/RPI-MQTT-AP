@@ -1,3 +1,6 @@
+
+#Make sure you are in the same directory as this file since I was lazy and hard coded directory changes
+
 sudo apt-get install libssl-dev -y
 sudo apt-get install cmake -y
 sudo apt-get install libc-ares-dev -y
