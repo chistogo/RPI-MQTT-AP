@@ -111,7 +111,7 @@ bind-interfaces      # Bind to the interface to make sure we aren't sending thin
 server=8.8.8.8       # Forward DNS requests to Google DNS  
 domain-needed        # Don't forward short names  
 bogus-priv           # Never forward addresses in the non-routed address spaces.  
-dhcp-range=172.24.1.50,172.24.1.150,12h # Assign IP addresses between 172.24.1.50 and 172.24.1.150 with a 12 hour lease time" > /etc/dnsmasq.conf  
+dhcp-range=172.24.1.10,172.24.1.240,12h # Assign IP addresses between 172.24.1.10 and 172.24.1.240 with a 12 hour lease time" > /etc/dnsmasq.conf  
 
 sudo echo "#
 # /etc/sysctl.conf - Configuration file for setting system variables
