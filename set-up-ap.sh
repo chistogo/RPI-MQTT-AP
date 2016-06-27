@@ -212,7 +212,7 @@ FILE=/etc/rc.local
 grep -q "$LINE" "$FILE" || echo "$LINE" >> "$FILE"
 
 
-echo "sudo /usr/sbin/hostapd /etc/hostapd/hostapd.conf" >> /etc/rc.local
+echo "sudo /usr/sbin/hostapd /etc/hostapd/hostapd.conf&" >> /etc/rc.local
 echo "exit 0" >> /etc/rc.local
 
 
