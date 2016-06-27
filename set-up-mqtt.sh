@@ -59,7 +59,7 @@ sed -i -- 's/exit 0/ /g' /etc/rc.local
 cat >> /etc/rc.local <<EOF
 touch /etc/mosquitto/mosquitto.log
 chmod 777 /etc/mosquitto/mosquitto.log
-sudo mosquitto -c /etc/mosquitto/mosquitto.conf -v &> /etc/mosquitto/mosquitto.log
+sudo mosquitto -c /etc/mosquitto/mosquitto.conf -v &> /etc/mosquitto/mosquitto.log&
 exit 0
 EOF
 
