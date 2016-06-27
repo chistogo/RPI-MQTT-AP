@@ -11,6 +11,7 @@ fi
 
 
 #Installs Software for Access Point, DHCP, DNS
+sudo apt-get remove --purge hostapd -y
 sudo apt-get install dnsmasq hostapd -y
 
 #Append File to stop DHCP on wlan0
