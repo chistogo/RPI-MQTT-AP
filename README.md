@@ -30,7 +30,7 @@ sudo apt-get update
 sudo apt-get dist-upgrade
 ```
 
-###Upgrade Firmware
+###Upgrade Firmware (If you want the bleeding edge drivers)
 ```bash
 sudo apt-get install rpi-update -y
 sudo rpi-update
